@@ -4,4 +4,5 @@
     <string name="title_tmb">Taxa Metabólica Basal</string>
     <string name="imc_details">O índice de massa corpórea (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.</string>
     <string name="tmb_details">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso.</string>
+    <string name="imc_result">Seu IMC é:  %.2f</string>
 </resources>

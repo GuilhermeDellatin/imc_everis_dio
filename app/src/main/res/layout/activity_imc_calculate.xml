@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
         app:cardCornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@id/outlinedTextFieldWeight"
+        app:layout_constraintBottom_toTopOf="@+id/outlinedTextFieldWeight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="380dp"
+            android:layout_height="340dp"
             android:orientation="vertical">
 
             <TextView
@@ -39,9 +39,11 @@
                 android:padding="16dp">
 
                 <TextView
+                    android:id="@+id/imc_text_result"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="18dp"
+                    android:textColor="@color/purple_200"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -55,18 +57,10 @@
                     android:id="@+id/imc_img_result1"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_marginLeft="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
-
-                <ImageView
-                    android:id="@+id/imc_img_result2"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginRight="10dp"
+                    android:src="@drawable/thinwheight"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -83,7 +77,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
         android:hint="Peso"
-        app:boxBackgroundMode="outline"
         app:helperText="Digite seu peso em kg, ex: 89.7kg"
         app:layout_constraintBottom_toTopOf="@id/outlinedTextFieldHeight"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,8 +84,10 @@
         app:layout_constraintTop_toBottomOf="@+id/imc_card_result">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/outlinedTextInputWeight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,15 +98,16 @@
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
         android:hint="Altura"
-        app:boxBackgroundMode="outline"
         app:helperText="Digite sua altura em metros, ex: 1.83"
         app:layout_constraintBottom_toTopOf="@id/btn_calculate_imc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/outlinedTextInputHeight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 

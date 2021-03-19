@@ -17,13 +17,10 @@ class MainActivity : AppCompatActivity() {
     private fun setListeners() {
         val imcButton = findViewById<MaterialButton>(R.id.button_imc)
         imcButton.setOnClickListener {
-            //val intent = Intent(this, ResultActivity::class.java)
             startActivity(Intent(this, ImcCalculateActivity::class.java))
         }
         val tmbButton = findViewById<MaterialButton>(R.id.button_tmb)
         tmbButton.setOnClickListener {
-            //val intent = Intent(this, ResultActivity::class)
-            //startActivity(intent)
             startActivity(Intent(this, ImcCalculateActivity::class.java))
         }
     }
