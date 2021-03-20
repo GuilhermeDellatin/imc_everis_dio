@@ -2,14 +2,6 @@ package com.gfdellatin.imc_everis_dio
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.view.isEmpty
-import androidx.core.widget.doAfterTextChanged
-import androidx.core.widget.doOnTextChanged
-import com.google.android.material.textfield.TextInputLayout
 import kotlinx.android.synthetic.main.activity_imc_calculate.*
 
 

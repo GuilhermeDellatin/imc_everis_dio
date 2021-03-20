@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
         val tmbButton = findViewById<MaterialButton>(R.id.button_tmb)
         tmbButton.setOnClickListener {
-            startActivity(Intent(this, ImcCalculateActivity::class.java))
+            startActivity(Intent(this, TmbCalculateActivity::class.java))
         }
     }
 }
