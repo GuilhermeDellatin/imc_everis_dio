@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Imc_everis_dio">
-        <activity android:name=".TmbCalculateActivity"></activity>
+        <activity android:name=".WaterCalculateActivity"></activity>
+        <activity android:name=".TmbCalculateActivity" />
         <activity android:name=".ImcCalculateActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

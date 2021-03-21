@@ -2,9 +2,10 @@ package com.gfdellatin.imc_everis_dio
 
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.button.MaterialButton
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,13 +16,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListeners() {
-        val imcButton = findViewById<MaterialButton>(R.id.button_imc)
-        imcButton.setOnClickListener {
+
+        button_imc?.setOnClickListener {
             startActivity(Intent(this, ImcCalculateActivity::class.java))
         }
-        val tmbButton = findViewById<MaterialButton>(R.id.button_tmb)
-        tmbButton.setOnClickListener {
+
+        button_tmb?.setOnClickListener {
             startActivity(Intent(this, TmbCalculateActivity::class.java))
+        }
+
+        button_water.setOnClickListener {
+            startActivity(Intent(this,WaterCalculateActivity::class.java))
         }
     }
 }
