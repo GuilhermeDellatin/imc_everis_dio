@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Calculadora de TMB"
+                android:text="@string/calculate_tmb"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="18dp"
-                    android:textColor="@color/purple_200"
+                    android:textColor="@color/color_theme_app"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -76,8 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:hint="Peso"
-        app:helperText="Digite seu peso em kg, ex: 89.7kg"
+        android:hint="@string/weight"
+        app:helperText="@string/help_info_weight"
         app:layout_constraintTop_toBottomOf="@+id/imc_card_result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -97,8 +97,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:hint="Altura"
-        app:helperText="Digite sua altura em centimetros, ex: 183"
+        android:hint="@string/height"
+        app:helperText="@string/help_info_tmb_height"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/outlinedTextFieldWeight">
@@ -117,8 +117,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:hint="Idade"
-        app:helperText="Digite sua idade em anos"
+        android:hint="@string/age"
+        app:helperText="@string/help_info_tmb_age"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/outlinedTextFieldHeightTmb">
 
@@ -146,7 +146,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:text="Calcular"
+        android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

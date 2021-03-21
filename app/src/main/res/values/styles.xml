@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="Theme.MaterialComponents">
+        <item name="colorOnSurface">@color/purple_500</item>
+        <item name="colorSecondary">@color/purple_200</item>
+    </style>
+
+    <style name="material_text_input" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_theme_app</item>
+    </style>
+</resources>

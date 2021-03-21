@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Calculadora de IMC"
+                android:text="@string/calculate_imc"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="18dp"
-                    android:textColor="@color/purple_200"
+                    android:textColor="@color/color_theme_app"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
@@ -76,8 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:hint="Peso"
-        app:helperText="Digite seu peso em kg, ex: 89.7kg"
+        android:hint="@string/weight"
+        app:helperText="@string/help_info_weight"
         app:layout_constraintBottom_toTopOf="@id/outlinedTextFieldHeight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,8 +97,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:hint="Altura"
-        app:helperText="Digite sua altura em metros, ex: 1.83"
+        android:hint="@string/height"
+        app:helperText="@string/help_info_imc_height"
         app:layout_constraintBottom_toTopOf="@id/btn_calculate_imc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -116,7 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:text="Calcular"
+        android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

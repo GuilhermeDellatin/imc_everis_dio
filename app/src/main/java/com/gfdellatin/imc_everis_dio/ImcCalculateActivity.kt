@@ -13,6 +13,7 @@ class ImcCalculateActivity : AppCompatActivity() {
         btn_calculate_imc?.setOnClickListener {
             calculateImc(outlinedTextInputWeight.text.toString(), outlinedTextInputHeight.text.toString())
         }
+
     }
 
 

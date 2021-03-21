@@ -1,27 +1,47 @@
 <resources>
+    <!--AppName-->
     <string name="app_name">Equilibrium</string>
+
+    <!--IMC-->
     <string name="title_imc">Indice de Massa Corpórea</string>
-    <string name="title_tmb">Taxa Metabólica Basal</string>
     <string name="imc_details">O índice de massa corpórea (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.</string>
-    <string name="tmb_details">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso.</string>
     <string name="imc_result">Seu IMC é:  %.2f</string>
+    <string name="more_info_imc">Mais informações</string>
+    <string name="my_imc">Seu IMC</string>
+    <string name="what_is_imc">O que é imc?</string>
+    <string name="help_info_imc_height">Digite sua altura em metros, ex: 1.83</string>
+    <string name="calculate_imc">Calculadora de IMC</string>
+
+    <!--TMB-->
+    <string name="title_tmb">Taxa Metabólica Basal</string>
+    <string name="tmb_details">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso.</string>
+    <string name="what_is_tmb">O que é tmb?</string>
+    <string name="my_tmb">Sua TMB</string>
     <string name="tmb_result">Seu TMB é: %.2f kcal</string>
+    <string name="calculate_tmb">Calculadora de TMB</string>
+    <string name="age">Idade</string>
+    <string name="help_info_tmb_height">Digite sua altura em centimetros, ex: 183</string>
+    <string name="help_info_tmb_age">Digite sua idade em anos</string>
+    <string name="more_info_tmb">Mais informações</string>
+
+    <!--IDR WATER-->
     <string name="water_result">Sua idr de água é: %.2f ml</string>
     <string name="water_details">Beber água parece ser um dos compromissos mais simples que você deve ter com sua saúde. Mas, será que você está bebendo o volume certo?</string>
     <string name="important_water">É importante se hidratar!</string>
     <string name="title_water">Ingestão diária de Água</string>
     <string name="drink_water">IDR Água</string>
     <string name="more_info_water">Mais informações</string>
-    <string name="more_info_tmb">Mais informações</string>
-    <string name="more_info_imc">Mais informações</string>
-    <string name="my_imc">Seu IMC</string>
-    <string name="what_is_imc">O que é imc?</string>
-    <string name="what_is_tmb">O que é tmb?</string>
-    <string name="my_tmb">Sua TMB</string>
     <string name="is_old">É idoso?</string>
     <string name="renal_desease">Possui doença renal?</string>
-    <string name="weight">Peso</string>
+    <string name="calculate_idr_water">Cálculo de ingestão de Água</string>
+    <string name="help_info_weight">Digite seu peso em kg, ex: 89.7kg</string>
 
+    <!--Common Usages-->
+    <string name="calculate">Calcular</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+
+    <!--Switch Water-->
     <string-array name="Sex">
         <item>Masculino</item>
         <item>Feminino</item>
